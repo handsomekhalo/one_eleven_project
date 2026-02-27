@@ -8,6 +8,7 @@ def sort_characters():
 
     if not data or "data" not in data:
         return jsonify({"error": "Missing data field"}), 400
+        
 
     input_string = data["data"]
 
